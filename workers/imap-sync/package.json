@@ -1,0 +1,21 @@
+{
+  "name": "imap-sync",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@secure-email/database": "1.0.0",
+    "imapflow": "^1.0.148",
+    "mailparser": "^3.6.5"
+  },
+  "devDependencies": {
+    "@types/mailparser": "^3.4.0",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.0"
+  }
+}

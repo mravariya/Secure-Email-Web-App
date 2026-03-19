@@ -1,0 +1,34 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "drizzle-orm": "^0.29.0",
+    "fastify-plugin": "^4.5.1",
+    "@fastify/helmet": "^11.1.1",
+    "@fastify/rate-limit": "^9.1.0",
+    "@secure-email/crypto": "1.0.0",
+    "@secure-email/database": "1.0.0",
+    "@secure-email/shared": "1.0.0",
+    "fastify": "^4.24.0",
+    "jsonwebtoken": "^9.0.2",
+    "@fastify/multipart": "^8.1.0",
+    "nanoid": "^5.0.4",
+    "otplib": "^12.0.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.10.0",
+    "@types/uuid": "^9.0.7",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.0"
+  }
+}
